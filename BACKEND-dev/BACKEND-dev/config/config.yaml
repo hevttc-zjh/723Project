@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: 192.168.177.18
+  port: 5432
+  user: postgres
+  password: root
+  name: wacivic_data
+  sslmode: disable
+
+jwt:
+  secret: your-secret-key-change-in-production
+  expire_hours: 24
+
+log:
+  level: info
+  file: logs/app.log 
